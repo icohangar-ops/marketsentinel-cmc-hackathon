@@ -1,0 +1,56 @@
+{
+  "project": "MarketSentinel",
+  "description": "Confidential Market Manipulation Detection Oracle \u2014 CMC API + iExec Nox TEE",
+  "network": "ethereum-sepolia",
+  "chain_id": 11155111,
+  "deployer": "0x4c10043F68F7d9ADF6CeeCFD2A7eC82bB19C8937",
+  "nox_placeholder": "0x0000000000000000000000000000000000000001",
+  "timestamp": "2026-09-20T17:51:48.857129+00:00",
+  "contracts": {
+    "CMCDataAggregator": {
+      "address": "0xC74DD18D32E69d63dB906a54F36C90e5b44e62bC",
+      "tx_hash": "c429f49bd774ad9d3e28ce1b2d263875ca128c0209d4c1ef2450f19447965bef",
+      "gas_used": 53142,
+      "block_number": 11745751
+    },
+    "ConfidentialManipulationScorer": {
+      "address": "0x9d9d8b6D60c8346362c8f9FCeec47F040D8D9772",
+      "tx_hash": "71f3c8af3d392e94e2d049b04a9851daaffa46680e9fb77b4a9d03c7019f9d47",
+      "gas_used": 53512,
+      "block_number": 11745752
+    },
+    "MarketIntegrityOracle": {
+      "address": "0xcD84148097018689D978A0245eCA8538DfC45D0E",
+      "tx_hash": "80c052f1687b3749693f8f046d646480f7ff1f640a3a9034201941d195526caa",
+      "gas_used": 53512,
+      "block_number": 11745753
+    }
+  },
+  "architecture": {
+    "layer1": {
+      "name": "CMCDataAggregator",
+      "purpose": "Confidential CMC market data ingestion into TEE"
+    },
+    "layer2": {
+      "name": "ConfidentialManipulationScorer",
+      "purpose": "TEE-encrypted 3-factor manipulation scoring",
+      "weights": {
+        "wash_trading": "40%",
+        "exchange_concentration": "35%",
+        "pump_pattern": "25%"
+      }
+    },
+    "layer3": {
+      "name": "MarketIntegrityOracle",
+      "purpose": "Composable on-chain TokenClean/TokenManipulated signals"
+    }
+  },
+  "cmc_endpoints_used": [
+    "/v1/cryptocurrency/listings/latest",
+    "/v1/cryptocurrency/quotes/latest",
+    "/v1/global-metrics/quotes/latest",
+    "/v1/cryptocurrency/categories",
+    "/v2/cryptocurrency/ohlcv/latest",
+    "/v1/fiat/map"
+  ]
+}

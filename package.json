@@ -1,0 +1,28 @@
+{
+  "name": "marketsentinel-cmc-hackathon",
+  "version": "1.0.0",
+  "description": "MarketSentinel — Confidential Market Manipulation Detection Oracle using CMC API + iExec Nox TEE",
+  "main": "index.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "deploy": "hardhat run scripts/deploy.ts --network sepolia",
+    "test": "hardhat test"
+  },
+  "keywords": [
+    "coinmarketcap",
+    "iexec",
+    "tee",
+    "oracle",
+    "manipulation-detection"
+  ],
+  "author": "icohangar-ops",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.29.1"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.0",
+    "viem": "^2.21.0"
+  }
+}

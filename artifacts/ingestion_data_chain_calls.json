@@ -1,0 +1,181 @@
+[
+  {
+    "function": "ingestTokenData",
+    "contract": "CMCDataAggregator",
+    "args": {
+      "cmcTokenId": 1,
+      "volume24h": 21455478076449928,
+      "marketCap": 1634281891643299584,
+      "price": 8135997528971,
+      "pctChange1h": -3,
+      "pctChange24h": -12,
+      "pctChange7d": 532
+    },
+    "metadata": {
+      "name": "Bitcoin",
+      "symbol": "BTC"
+    }
+  },
+  {
+    "function": "ingestTokenData",
+    "contract": "CMCDataAggregator",
+    "args": {
+      "cmcTokenId": 1027,
+      "volume24h": 10039837386943282,
+      "marketCap": 321489902162533824,
+      "price": 263376542190,
+      "pctChange1h": -41,
+      "pctChange24h": -44,
+      "pctChange7d": 521
+    },
+    "metadata": {
+      "name": "Ethereum",
+      "symbol": "ETH"
+    }
+  },
+  {
+    "function": "ingestTokenData",
+    "contract": "CMCDataAggregator",
+    "args": {
+      "cmcTokenId": 825,
+      "volume24h": 58624998263191200,
+      "marketCap": 183366765199284544,
+      "price": 99990247,
+      "pctChange1h": 0,
+      "pctChange24h": 2,
+      "pctChange7d": 2
+    },
+    "metadata": {
+      "name": "Tether USDt",
+      "symbol": "USDT"
+    }
+  },
+  {
+    "function": "ingestTokenData",
+    "contract": "CMCDataAggregator",
+    "args": {
+      "cmcTokenId": 1839,
+      "volume24h": 1463537869232563,
+      "marketCap": 101731410113330864,
+      "price": 76397738194,
+      "pctChange1h": 2,
+      "pctChange24h": 15,
+      "pctChange7d": 598
+    },
+    "metadata": {
+      "name": "BNB",
+      "symbol": "BNB"
+    }
+  },
+  {
+    "function": "ingestTokenData",
+    "contract": "CMCDataAggregator",
+    "args": {
+      "cmcTokenId": 52,
+      "volume24h": 2825902747046672,
+      "marketCap": 88429393257878992,
+      "price": 140633753,
+      "pctChange1h": -56,
+      "pctChange24h": -123,
+      "pctChange7d": 388
+    },
+    "metadata": {
+      "name": "XRP",
+      "symbol": "XRP"
+    }
+  },
+  {
+    "function": "ingestTokenData",
+    "contract": "CMCDataAggregator",
+    "args": {
+      "cmcTokenId": 3408,
+      "volume24h": 9450081527077924,
+      "marketCap": 74215626769998880,
+      "price": 100008394,
+      "pctChange1h": 0,
+      "pctChange24h": 2,
+      "pctChange7d": 2
+    },
+    "metadata": {
+      "name": "USDC",
+      "symbol": "USDC"
+    }
+  },
+  {
+    "function": "ingestTokenData",
+    "contract": "CMCDataAggregator",
+    "args": {
+      "cmcTokenId": 5426,
+      "volume24h": 3129496190141745,
+      "marketCap": 64832213655789672,
+      "price": 11037775854,
+      "pctChange1h": -12,
+      "pctChange24h": -102,
+      "pctChange7d": 939
+    },
+    "metadata": {
+      "name": "Solana",
+      "symbol": "SOL"
+    }
+  },
+  {
+    "function": "ingestTokenData",
+    "contract": "CMCDataAggregator",
+    "args": {
+      "cmcTokenId": 1958,
+      "volume24h": 477178441037252,
+      "marketCap": 32618425948152648,
+      "price": 34350005,
+      "pctChange1h": -24,
+      "pctChange24h": 141,
+      "pctChange7d": 73
+    },
+    "metadata": {
+      "name": "TRON",
+      "symbol": "TRX"
+    }
+  },
+  {
+    "function": "ingestTokenData",
+    "contract": "CMCDataAggregator",
+    "args": {
+      "cmcTokenId": 1437,
+      "volume24h": 1225138629643264,
+      "marketCap": 24590773346300556,
+      "price": 145691763202,
+      "pctChange1h": 38,
+      "pctChange24h": -231,
+      "pctChange7d": 3140
+    },
+    "metadata": {
+      "name": "Zcash",
+      "symbol": "ZEC"
+    }
+  },
+  {
+    "function": "ingestTokenData",
+    "contract": "CMCDataAggregator",
+    "args": {
+      "cmcTokenId": 32196,
+      "volume24h": 843538643665246,
+      "marketCap": 23341677382325180,
+      "price": 9282066220,
+      "pctChange1h": -50,
+      "pctChange24h": 58,
+      "pctChange7d": 1844
+    },
+    "metadata": {
+      "name": "Hyperliquid",
+      "symbol": "HYPE"
+    }
+  },
+  {
+    "function": "ingestGlobalMetrics",
+    "contract": "CMCDataAggregator",
+    "args": {
+      "totalMcap": 2782931608980825600,
+      "btcDominance": 5872,
+      "totalVol24h": 70565366361300000
+    }
+  }
+]
